@@ -26,5 +26,5 @@ jobs:
 
       - name: Github Actions Secret 변수 사용해보기
         run: |
-          echo ${{ secrets.MY_SECRET_NAME }}
-          echo ${{ secrets.MY_SECRET_FAVORITES }}
+          echo $ {{ secrets.MY_SECRET_NAME }}
+          echo $ {{ secrets.MY_SECRET_FAVORITES }}
